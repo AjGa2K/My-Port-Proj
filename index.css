@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Link Styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #333333;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+/* Fixed Navigation Bar */
+nav {
+    background-color: #444;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ol {
+    display: inline;
+}
+
+nav ol a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav ol a:hover {
+    text-decoration: underline;
+}
+
+/* Adding space at the top to account for the fixed navbar */
+body {
+    padding-top: 70px; /* Adjust this value to fit the height of your fixed navbar */
+}
+
+/* Introduction Section */
+.Intro {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Experience Section */
+.exps, .exp1, .exp2, .exp3, .exp4 {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.exps img, .exp1 img, .exp2 img, .exp3 img, .exp4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+footer h4 {
+    margin: 10px 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ol a {
+        font-size: 1rem;
+    }
+
+    .Intro, .exps, .exp1, .exp2, .exp3, .exp4 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    footer h4 {
+        font-size: 0.9rem;
+    }
+}
